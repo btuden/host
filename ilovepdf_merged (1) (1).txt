@@ -1,0 +1,2187 @@
+Preferences and Utilities
+The Toolbox
+
+October 9, 2023
+
+(Micro)Economics
+
+In Robbins definition, Economics is the science which studies
+human behaviour as a relationship between ends and scarce
+means which have alternative uses.
+People make trade-offs and consider opportunity costs in
+their decisions.
+
+(Efficient) Allocation
+▶ Allocating resources implies choosing. This is the central
+topic of Microeconomics: create models that explain
+choices.
+▶ Typical Framework: Individuals are optimisers. Therefore,
+optimisation will be our key technical tool to analyse
+choices.
+▶ Find the objective
+
+(Efficient) Allocation
+▶ Allocating resources implies choosing. This is the central
+topic of Microeconomics: create models that explain
+choices.
+▶ Typical Framework: Individuals are optimisers. Therefore,
+optimisation will be our key technical tool to analyse
+choices.
+▶ Find the objective
+▶ Define constraints
+
+(Efficient) Allocation
+▶ Allocating resources implies choosing. This is the central
+topic of Microeconomics: create models that explain
+choices.
+▶ Typical Framework: Individuals are optimisers. Therefore,
+optimisation will be our key technical tool to analyse
+choices.
+▶ Find the objective
+▶ Define constraints
+▶ Find a solution
+
+Preferences
+
+The fundamental concept that founds economics is the one of
+preferences, i.e. a relation between bundle of goods.
+Formally, we write
+X ≻Y, X ∼Y, X ≺Y
+X here represents a general bundle with as many goods as we
+want, but usually we will work in 2 dimensional frameworks
+and therefore X = (x1 , x2 ) ∈ R2+
+
+Preferences Assumptions
+▶ Completeness:
+
+Preferences Assumptions
+▶ Completeness: agents are never indecisive (i.e. avoid ”I
+can’t choose” scenarios)
+▶ For each X , Y , either X ≿ Y or Y ≿ X
+
+▶ Transitivity:
+
+Preferences Assumptions
+▶ Completeness: agents are never indecisive (i.e. avoid ”I
+can’t choose” scenarios)
+▶ For each X , Y , either X ≿ Y or Y ≿ X
+
+▶ Transitivity: rule out possibility of cycles
+▶ For each X , Y , Z , if X ≿ Y and Y ≿ Z , then X ≿ Z
+
+▶ Monotonicity:
+
+Preferences Assumptions
+▶ Completeness: agents are never indecisive (i.e. avoid ”I
+can’t choose” scenarios)
+▶ For each X , Y , either X ≿ Y or Y ≿ X
+
+▶ Transitivity: rule out possibility of cycles
+▶ For each X , Y , Z , if X ≿ Y and Y ≿ Z , then X ≿ Z
+
+▶ Monotonicity: More is better
+▶ For each X and ϵ > 0, X = (x1 , x2 ) ≾ (x1 + ϵ, x2 + ϵ)
+
+▶ Continuity:
+
+Preferences Assumptions
+▶ Completeness: agents are never indecisive (i.e. avoid ”I
+can’t choose” scenarios)
+▶ For each X , Y , either X ≿ Y or Y ≿ X
+
+▶ Transitivity: rule out possibility of cycles
+▶ For each X , Y , Z , if X ≿ Y and Y ≿ Z , then X ≿ Z
+
+▶ Monotonicity: More is better
+▶ For each X and ϵ > 0, X = (x1 , x2 ) ≾ (x1 + ϵ, x2 + ϵ)
+
+▶ Continuity: small changes in bundles shouldn’t generally
+revert the preference order
+▶ Convexity:
+
+Preferences Assumptions
+▶ Completeness: agents are never indecisive (i.e. avoid ”I
+can’t choose” scenarios)
+▶ For each X , Y , either X ≿ Y or Y ≿ X
+
+▶ Transitivity: rule out possibility of cycles
+▶ For each X , Y , Z , if X ≿ Y and Y ≿ Z , then X ≿ Z
+
+▶ Monotonicity: More is better
+▶ For each X and ϵ > 0, X = (x1 , x2 ) ≾ (x1 + ϵ, x2 + ϵ)
+
+▶ Continuity: small changes in bundles shouldn’t generally
+revert the preference order
+▶ Convexity: averages are better than extreme
+▶ For each X , Y with X ≿ Y , αX + (1 − α)Y ≿ Y
+
+From preferences to utility
+If preferences are rational (i.e. complete and transitive) and
+continuous1 , then we can attach to each bundle a number,
+therefore constructing the a so-called utility function that
+represents the preferences, i.e.
+X ≿ Y ⇐⇒ u (X ) ≥ u (Y )
+This seems a simple trick, but will simplify a lot handling our
+problems, and we will mostly drop preferences and use directly
+utility functions. This is why defining the most preferred
+object might be harder than defining the highest utility bundle.
+
+1 continuity of preferences guarantee continuity of the utility function
+
+Utility: a graphical perspective
+In our 2 dimensional world, utilities are 3-dimensional objects:
+the function picks a bundle of 2 goods and attaches to that a
+√
+number. For example: u (x1 , x2 ) = x1 · x2
+
+u ( x1 , x2 )
+
+10
+5
+0
+0
+
+2
+
+4
+x1
+
+6
+
+8
+
+10 0
+
+2
+
+4
+
+6
+x2
+
+8
+
+10
+
+Indifference curves
+Imagine slicing the utility function horizontally, you obtain the
+so called level curves of a function, i.e. the set of point such
+that u (x1 , x2 ) = ū. Since all of the points on the curve have
+the same utility, we call them indifference curves.
+5
+u ( x1 , x2 ) = 1
+u ( x1 , x2 ) = 2
+4
+
+x2
+
+3
+2
+1
+0
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+Notable preferences
+In economic theory, there are a few preferences/utilities which
+are widely used:
+
+▶ Cobb Douglas u (x1 , x2 ) = x1a x2b
+▶ Prefect Complements u (x1 , x2 ) = min[x1 , x2 ]
+▶ Perfect Substitutes u (x1 , x2 ) = x1 + x2
+▶ Quasi Linear u (x1 , x2 ) = v (x1 ) + x2 , where v (·) is a
+generic function, can be a log, a square root or a power
+▶ Homothetic: family of preferences that satisfy: ifX ≿ Y ,
+then tX ≿ tY
+Try and draw indifference curves for each of this and ask
+yourself what assumptions the underlying preferences satisfy.
+
+Monotonic transformation
+One thing to remind about utilities is that they represent
+preferences and therefore they are an ordinal concept: we only
+care about ordering bundles, not their actual levels of utility.
+Then, moving the utility of all bundles up or down in a
+smooth way would preserve the order. This is called a
+monotonic transformation, i.e. a function g (·) such that
+X ≿ Y ⇐⇒ u (X ) ≥ u (Y ) ⇐⇒ g (u (X )) ≥ g (u (Y ))
+For example, v (x1 , x2 ) = a logx1 + b logx2 is a monotonic
+transformation of a Cobb Doublas because
+log u (x1 , x2 ) = log (x1a x2b ) = a logx1 + b logx2
+Can you think of other possible monotonic transformations?
+
+Marginal rate of Substitution
+Using utilities and indifference curves, we can define a very
+important concept, which is the slope of the indifference curve
+at a point. In other terms, how we need to swap/trade goods
+to remain indifferent. Formally, this object is called the
+Marginal rate of substitution and it is computed as follows:
+∂u
+
+MRS = −
+
+d x2
+1
+= − ∂x
+∂u
+d x1
+∂x
+2
+
+∂u
+We refer to ∂x
+as the Marginal utility for good 1, i.e. the
+1
+additional utility gained by increasing marginally the quantity
+of good 1.
+
+MRS - visualisation
+5
+Indifference curve
+Tangent curve. Slope=MRS
+
+4
+
+x2 = x11
+
+x2
+
+3
+2
+1
+0
+
+0
+
+1
+
+2
+
+3
+x1
+
+4
+
+5
+
+Lecture 2 - (Marshallian) Demand
+
+October 2023
+
+Reminder
+
+Typical Framework: Individuals are optimisers. Therefore,
+optimisation will be our key technical tool to analyse choices.
+
+▶ Find the objective
+▶ Define constraints
+▶ Find a solution
+We introduced the notion of utility. How can we apply it to
+explain choices?
+
+Utility Optimisation
+
+▶ Find the objective → Utility
+▶ Define constraints → ??
+▶ Find a solution → ??
+In mathematical terms:
+max
+
+u (x1 , x2 )
+
+s.t.
+
+???
+
+x1 ,x2
+
+Budget Constraint
+Constraints usually represent the scarsity of resources.
+Simplest resource which is scarse is money, in our terminology,
+income.
+Assigning prices to goods, we obtain the following budget
+constraint
+p1 x1 + p2 x2 ≤ m
+This represents the set of bundles which are affordable at
+income m. Given utility comes only from these two goods,
+there is no incentive to save, and therefore we will often
+consider the budget constraint with equality, i.e. spending all
+the income.
+What would happen to the set of affordable bundles (and
+graph) if a price increase/decrease? If income
+increases/decreases?
+
+Budget Constraint - Graph
+10 x
+2
+
+x1 + 2x2 = 8
+
+8
+6
+4
+2
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Utility Maximisation Problem (UMP)
+The standard optimisation problem for utility will then look like
+max
+
+u ( x1 , x2 )
+
+s.t.
+
+p1 x1 + p2 x2 ≤ m
+
+x1 ,x2
+
+It means we are looking for an affordable bundle which gives
+the highest utility. This bundle will clearly depend on prices
+and income.
+We call the solution to this problem the Marshallian
+demand, as it will represent the optimal quantity demanded
+at given prices and income x (p, m ).
+
+UMP - Graphical solution
+10 x
+2
+
+Budget line: x1 + 2x2 = 8
+Utility: u (x1 , x2 ) = x1 x22
+
+8
+6
+4
+
+(x1∗ , x2∗ ) = ( 83 , 83 )
+
+2
+2
+
+4
+
+6
+
+8
+
+The optimal point lies on the highest indifference curve
+touching the budget line.
+
+10
+
+Computing Marshallian Demand
+1- Equimarginal principle
+
+Most of the cases we will work with involves utilities whose
+indifference curves are smooth and convex (e.g. Cobb
+Douglas).
+In this case we can exploit the fact that, at the optimum, the
+indifference curve and the budget line will be tangent.
+Therefore, their slopes will coincide, giving us the condition
+∂u
+
+MRS (x1∗ , x2∗ ) = − pp12 or ∂x∂u1 = pp12
+∂x2
+
+And together with this condition, we use the budget constraint
+equation (with =).
+What if the MRS is greater than the price ratio?
+
+Computing Marshallian Demand
+2- Setting up the Lagrangian
+
+A more robust (but longer) method is borrowed from
+constrained optimization, in which we construct the
+Lagrangian function, i.e.
+L = objective function − λ(constraint ),
+where λ is the so called Lagrangian multiplier. Therefore,
+L(x1 , x2 , λ) = u (x1 , x2 ) − λ(p1 x1 + p2 x2 − m )
+And then compute first order conditions as if this was an
+unconstrained optimisation.
+
+Computing Marshallian Demand
+3- Other cases
+
+There are cases in which neither of the previous cases work:
+what to do then? You can always rely on intuition.
+For example, with perfect complements,
+u (x1 , x2 ) = min{x1 , x2 }
+10 x
+2
+8
+
+Budget line: x1 + 2x2 = 8
+Utility: u (x1 , x2 ) = min{x1 , x2 }
+
+6
+4
+2
+
+(x1∗ , x2∗ ) = ( 83 , 83 )
+
+Testing the Model
+
+Clearly, this is theoretical model that aims at explaining
+choices, assuming the existence of such thing as a utility
+function underlying individual decisions.
+We would ideally want to look at data to see if decision would
+be consistent with some generic prediction of the model.
+Upon observing prices, choice and other bundles (income is
+usually not observed as well), we will test two hypothesis on
+the Revealed Preferences.
+
+Revealed Preferences
+Suppose you can observe prices and choice. What can I say
+about the underlying preferences?
+The simplest implication is: if I have two available bundles and
+I observe that the first is chosen when the second was
+affordable, we can say that it is revealed preferred to the
+second.
+In other terms, if p1 x1 + p2 x2 ≥ p1 y1 + p2 y2 and x is chosen,
+it must be that x is (revealed) preferred to y .
+If then, at prices q we choose y over z, we say that x is
+indirectly preferred to z.
+
+WARP
+Weak Axiom of Revealed Preferences
+
+As a fairly mild condition to check our observed choice are in
+some manner rational, or more precisely consistent with our
+model, we simply demand that if we choose x over y at some
+prices p when both are affordable, we can never reverse the
+choice at any other price in which both are affordable.
+In other terms, if x is chosen over y with
+p1 x1 + p2 x2 ≥ p1 y1 + p2 y2 , then if at prices q we observe y
+being chosen, it must be that q1 x1 + q2 x2 > q1 y1 + q2 y2 .
+
+SARP
+Strong Axiom of Revealed Preferences
+
+As a stronger condition, for a choice to be consistent, we
+might require that if we observe A being chosen while B is
+affordable, B can never be revealed preferred to A. If also B is
+chosen over a third bundle C when both affordable, then C can
+never be (indirectly or not) revealed preferred to A.
+In a way, we are checking observed choices respect transitivity.
+10 x
+2
+x1 + 2x2 = 8
+8
+x1 + x2 = 5
+6
+C = (1, 4)
+B = (2, 3)
+4
+A = (4, 2)
+2
+2
+
+4
+
+6
+
+8
+
+10
+
+Lecture 3 - Demand: Comparative
+Statics
+
+October 2023
+
+Comparative statics
+Economists are interested in capturing evolving phenomena.
+Therefore, it is very interesting to study what would happen if
+we change some parameters of a model in terms of our
+expected outcome, ceteribus paribus.
+In our framework, we might want to understand what would
+happen to the optimal bundle x ∗ (p, m ) if prices or income
+changes. Here, we will study mainly 2 aspects:
+
+▶ Change in Income
+▶ Change in own price
+
+A taxonomy of goods
+
+▶ Income change
+∗
+
+1
+▶ ∂x
+∂m > 0: Normal Good
+
+∗
+
+1
+▶ ∂x
+∂m < 0: Inferior Good
+
+▶ Own price change
+∗
+
+1
+▶ ∂x
+∂p < 0: Ordinary Good
+
+▶
+
+1
+∂x1∗
+∂p1
+
+> 0: Giffen Good
+
+Can you provide
+examples for each
+of the goods?
+What about combinations of the
+two?
+
+Normal Good - Income expansion path
+10 x
+2
+
+x1 + x2 = 2
+x1 + x2 = 4
+x1 + x2 = 6
+
+8
+6
+4
+2
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Normal Good - Income expansion path
+10 x
+2
+
+U1
+BL3
+BL 2
+BL 1
+
+8
+6
+4
+2
+
+A
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Normal Good - Income expansion path
+10 x
+2
+
+U1
+U2
+BL3
+BL 2
+BL 1
+
+8
+6
+4
+2
+
+B
+A
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Normal Good - Income expansion path
+10 x
+2
+
+U1
+U2
+U3
+BL3
+BL 2
+BL 1
+
+8
+6
+4
+2
+
+C
+B
+A
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Engel Curve
+If we plot all the income-demand combination we obtain the
+so called Engel Curve
+10 x
+1
+
+Engel Curve
+
+8
+6
+4
+C
+
+2
+
+B
+m
+
+A
+2
+
+4
+
+6
+
+8
+
+10
+
+Ordinary Good
+10 x
+2
+
+x1 + x2 = 6
+2x1 + x2 = 6
+3x1 + x2 = 6
+
+8
+6
+4
+2
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Ordinary Good
+10 x
+2
+
+x1 + x2 = 6
+2x1 + x2 = 6
+3x1 + x2 = 6
+U1
+U2
+U3
+
+8
+6
+4
+
+A
+
+B
+
+C
+
+2
+x1
+2
+
+4
+
+6
+
+Why is x2 not changing?
+
+8
+
+10
+
+Individual Demand function
+If we plot all the price-demand combination we obtain the so
+called Demand Curve
+10 p
+1
+
+p1 = 3/x1
+
+8
+6
+4
+
+C
+
+2
+
+B
+
+A
+x1
+
+2
+
+4
+
+6
+
+8
+
+How do we interpret this function?
+
+10
+
+Price Elasticity of Demand
+An interesting part of the demand function is its slope, i.e.
+how fast the demand reacts to a price change.
+In particular, we define the Price Elasticity of Demand
+(PED) as the ratio of relative changes, (usually referred to in
+absolute terms)
+∂x
+∂x p
+x
+=
+ϵ = ∂p
+∂p q
+p
+
+Usually a demand with elasticity less than one is called
+inelastic, while if the PED is greater than unity is called elastic.
+
+Constructing Market Demand
+We showed what is an individual demand. What if we have
+many individuals with different demands? How do we ”sum”
+individual demands?
+10 p
+1
+
+Demand 1
+Demand 2
+
+8
+6
+4
+2
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Constructing Market Demand
+We showed what is an individual demand. What if we have
+many individuals with different demands? How do we ”sum”
+individual demands?
+10 p
+1
+
+Demand 1
+Demand 2
+Total Demand
+
+8
+6
+4
+2
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Slutsky Decomposition
+Let’s look back at the effects of a price change. We can ideally
+think to separate two different effect (for a price increase):
+
+▶ Switch consumption towards the second good
+→Substitution Effect
+▶ Loss of purchase power
+→ Income Effect
+This idea is called decomposition of the effect on demand of a
+price change.
+Ideally we want to separate the two effects, so that in the first
+only price change and in the second only income change.
+
+Compensated Demand
+To eliminate any possible purchase power ”interference”, we
+construct a compensated budget line.
+Let’s assume the original prices are (p1 , p2 ), the original
+demand (x1∗ (p, m ), x2∗ (p, m )) and the new price for good 1 p1′ .
+Then
+p1 x1∗ + p2 x ∗ = m
+p1′ x1∗ + p2 x2∗ = m ′
+m ′ represents the income needed to be able to purchase the
+initial quantities at new prices. Let (x1′ , x2′ ) be the demand at
+prices (p1′ , p2 ) and income m ′ , i.e. the solution to
+max(x1 ,x2 ) u (x1 , x2 )
+s.t. p1′ x1 + p2 x2 = m ′
+
+Substitution Effect
+The difference between the bundle x ∗ and x ′ is the
+substitution effect, as the only thing impacting this change is
+due to the price change.
+10 x
+2
+
+x1 + x2 = 6
+2x1 + x2 = 9 = m ′
+U1 :
+U2
+
+8
+6
+x′
+4
+
+x∗
+
+2
+x1
+SE
+
+2
+
+4
+
+6
+
+8
+
+10
+
+Income Effect
+As a second step, we can move from x ′ , i.e. the optimal
+bundle at new price and adjusted income, to x ′′ , the final
+bundle obtained by only moving back the income to its
+”natural” level. Therefore, x ′′ is the solution to
+max(x1 ,x2 ) u (x1 , x2 )
+s.t. p1′ x1 + p2 x2 = m
+Then, we define the Income Effect as the difference between
+x ′′ and x ′ , as this only depends on the (fictitious) change in
+income.
+
+Income Effect
+10 x
+2
+
+2x1 + x2 = 6
+2x1 + x2 = 9 = m ′
+U2
+U3
+
+8
+6
+x′
+4
+2
+
+x ′′
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Slutsky Decomposition- Connecting the pieces
+10 x
+2
+
+BL Original
+BL Final
+BL Compensated
+U (p, m )
+U (p ′ , m ′ )
+U (p ′ , m )
+Substitution Effect
+Income Effect
+
+8
+6
+x′
+4
+2
+
+x∗
+x ′′
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Slutsky Decomposition - Mathematical approach
+We are decomposing x ′′ − x ∗ or x (p ′ , m ) − x (p, m ).
+x ′′ − x ∗ = (x ′′ − x ′ ) +
+| {z }
+Income effect
+
+(x ′ − x ∗ )
+| {z }
+
+Substitution Effect
+
+x (p ′ , m ) − x (p, m ) = (x (p ′ , m ) − x (p ′ , m′ )) + (x (p ′ , m′ ) − x (p, m )) .
+|
+{z
+} |
+{z
+}
+Income effect
+
+Substitution Effect
+
+Let’s focus on the Substitution Effect. First, recall that
+m′ − m = ∆m = x ∗ ∆p. Now let’s compute its derivative with
+respect to p:
+dx S
+dx
+dx dm
+dx
+dx ∗
+=
++
+=
++
+x
+dp
+dp dm dp
+dp dm
+
+Slutsky Decomposition - Mathematical approach
+Finally, rearranging the last expression we have:
+dx
+=
+dp
+
+dx S
+dp
+|{z}
+
+−
+
+Substitution Effect
+
+dx ∗
+x
+|dm
+{z }
+
+Income Effect
+
+Law of Demand
+The Substitution Effect is negative, i.e.
+dx
+dx ∗
+dx S
+=
++
+x <0
+dp
+dp dm
+
+Application: what is the relation between normal and ordinary
+goods?
+What can we say about the size of SE and IE for an inferior good?
+
+Lecture 3 - Demand: Comparative
+Statics
+
+October 2023
+
+Comparative statics
+Economists are interested in capturing evolving phenomena.
+Therefore, it is very interesting to study what would happen if
+we change some parameters of a model in terms of our
+expected outcome, ceteribus paribus.
+In our framework, we might want to understand what would
+happen to the optimal bundle x ∗ (p, m ) if prices or income
+changes. Here, we will study mainly 2 aspects:
+
+▶ Change in Income
+▶ Change in own price
+
+A taxonomy of goods
+
+▶ Income change
+∗
+
+1
+▶ ∂x
+∂m > 0: Normal Good
+
+∗
+
+1
+▶ ∂x
+∂m < 0: Inferior Good
+
+▶ Own price change
+∗
+
+1
+▶ ∂x
+∂p < 0: Ordinary Good
+
+▶
+
+1
+∂x1∗
+∂p1
+
+> 0: Giffen Good
+
+Can you provide
+examples for each
+of the goods?
+What about combinations of the
+two?
+
+Normal Good - Income expansion path
+10 x
+2
+
+x1 + x2 = 2
+x1 + x2 = 4
+x1 + x2 = 6
+
+8
+6
+4
+2
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Normal Good - Income expansion path
+10 x
+2
+
+U1
+BL3
+BL 2
+BL 1
+
+8
+6
+4
+2
+
+A
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Normal Good - Income expansion path
+10 x
+2
+
+U1
+U2
+BL3
+BL 2
+BL 1
+
+8
+6
+4
+2
+
+B
+A
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Normal Good - Income expansion path
+10 x
+2
+
+U1
+U2
+U3
+BL3
+BL 2
+BL 1
+
+8
+6
+4
+2
+
+C
+B
+A
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Engel Curve
+If we plot all the income-demand combination we obtain the
+so called Engel Curve
+10 x
+1
+
+Engel Curve
+
+8
+6
+4
+C
+
+2
+
+B
+m
+
+A
+2
+
+4
+
+6
+
+8
+
+10
+
+Ordinary Good
+10 x
+2
+
+x1 + x2 = 6
+2x1 + x2 = 6
+3x1 + x2 = 6
+
+8
+6
+4
+2
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Ordinary Good
+10 x
+2
+
+x1 + x2 = 6
+2x1 + x2 = 6
+3x1 + x2 = 6
+U1
+U2
+U3
+
+8
+6
+4
+
+A
+
+B
+
+C
+
+2
+x1
+2
+
+4
+
+6
+
+Why is x2 not changing?
+
+8
+
+10
+
+Individual Demand function
+If we plot all the price-demand combination we obtain the so
+called Demand Curve
+10 p
+1
+
+p1 = 3/x1
+
+8
+6
+4
+
+C
+
+2
+
+B
+
+A
+x1
+
+2
+
+4
+
+6
+
+8
+
+How do we interpret this function?
+
+10
+
+Price Elasticity of Demand
+An interesting part of the demand function is its slope, i.e.
+how fast the demand reacts to a price change.
+In particular, we define the Price Elasticity of Demand
+(PED) as the ratio of relative changes, (usually referred to in
+absolute terms)
+∂x
+∂x p
+x
+=
+ϵ = ∂p
+∂p q
+p
+
+Usually a demand with elasticity less than one is called
+inelastic, while if the PED is greater than unity is called elastic.
+
+Constructing Market Demand
+We showed what is an individual demand. What if we have
+many individuals with different demands? How do we ”sum”
+individual demands?
+10 p
+1
+
+Demand 1
+Demand 2
+
+8
+6
+4
+2
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Constructing Market Demand
+We showed what is an individual demand. What if we have
+many individuals with different demands? How do we ”sum”
+individual demands?
+10 p
+1
+
+Demand 1
+Demand 2
+Total Demand
+
+8
+6
+4
+2
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Slutsky Decomposition
+Let’s look back at the effects of a price change. We can ideally
+think to separate two different effect (for a price increase):
+
+▶ Switch consumption towards the second good
+→Substitution Effect
+▶ Loss of purchase power
+→ Income Effect
+This idea is called decomposition of the effect on demand of a
+price change.
+Ideally we want to separate the two effects, so that in the first
+only price change and in the second only income change.
+
+Compensated Demand
+To eliminate any possible purchase power ”interference”, we
+construct a compensated budget line.
+Let’s assume the original prices are (p1 , p2 ), the original
+demand (x1∗ (p, m ), x2∗ (p, m )) and the new price for good 1 p1′ .
+Then
+p1 x1∗ + p2 x ∗ = m
+p1′ x1∗ + p2 x2∗ = m ′
+m ′ represents the income needed to be able to purchase the
+initial quantities at new prices. Let (x1′ , x2′ ) be the demand at
+prices (p1′ , p2 ) and income m ′ , i.e. the solution to
+max(x1 ,x2 ) u (x1 , x2 )
+s.t. p1′ x1 + p2 x2 = m ′
+
+Substitution Effect
+The difference between the bundle x ∗ and x ′ is the
+substitution effect, as the only thing impacting this change is
+due to the price change.
+10 x
+2
+
+x1 + x2 = 6
+2x1 + x2 = 9 = m ′
+U1 :
+U2
+
+8
+6
+x′
+4
+
+x∗
+
+2
+x1
+SE
+
+2
+
+4
+
+6
+
+8
+
+10
+
+Income Effect
+As a second step, we can move from x ′ , i.e. the optimal
+bundle at new price and adjusted income, to x ′′ , the final
+bundle obtained by only moving back the income to its
+”natural” level. Therefore, x ′′ is the solution to
+max(x1 ,x2 ) u (x1 , x2 )
+s.t. p1′ x1 + p2 x2 = m
+Then, we define the Income Effect as the difference between
+x ′′ and x ′ , as this only depends on the (fictitious) change in
+income.
+
+Income Effect
+10 x
+2
+
+2x1 + x2 = 6
+2x1 + x2 = 9 = m ′
+U2
+U3
+
+8
+6
+x′
+4
+2
+
+x ′′
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Slutsky Decomposition- Connecting the pieces
+10 x
+2
+
+BL Original
+BL Final
+BL Compensated
+U (p, m )
+U (p ′ , m ′ )
+U (p ′ , m )
+Substitution Effect
+Income Effect
+
+8
+6
+x′
+4
+2
+
+x∗
+x ′′
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Slutsky Decomposition - Mathematical approach
+We are decomposing x ′′ − x ∗ or x (p ′ , m ) − x (p, m ).
+x ′′ − x ∗ = (x ′′ − x ′ ) +
+| {z }
+Income effect
+
+(x ′ − x ∗ )
+| {z }
+
+Substitution Effect
+
+x (p ′ , m ) − x (p, m ) = (x (p ′ , m ) − x (p ′ , m′ )) + (x (p ′ , m′ ) − x (p, m )) .
+|
+{z
+} |
+{z
+}
+Income effect
+
+Substitution Effect
+
+Let’s focus on the Substitution Effect. First, recall that
+m′ − m = ∆m = x ∗ ∆p. Now let’s compute its derivative with
+respect to p:
+dx S
+dx
+dx dm
+dx
+dx ∗
+=
++
+=
++
+x
+dp
+dp dm dp
+dp dm
+
+Slutsky Decomposition - Mathematical approach
+Finally, rearranging the last expression we have:
+dx
+=
+dp
+
+dx S
+dp
+|{z}
+
+−
+
+Substitution Effect
+
+dx ∗
+x
+|dm
+{z }
+
+Income Effect
+
+Law of Demand
+The Substitution Effect is negative, i.e.
+dx
+dx ∗
+dx S
+=
++
+x <0
+dp
+dp dm
+
+Application: what is the relation between normal and ordinary
+goods?
+What can we say about the size of SE and IE for an inferior good?
+
+Lecture 4 - Welfare Anaysis
+
+October 2, 2023
+
+Beyond comparative statics
+
+We studied the implications of parameters change on the
+optimal choices.
+Now we move to the implications in terms of utility, trying to
+establish measures for consumers welfare and its changes.
+But since utility is only an ordinal concept, a decrease in utility
+by 50 might not be that meaningful. Therefore, we need some
+more objective measure for it, and in particular in monetary
+terms
+
+Substitution effect - A different perspective
+
+In the Slutsky decomposition, we constructed a compensated
+budget line and demand by adjusting the income of the
+consumer by keeping their purchase power constant.
+We can also think of a different compensated scenario, in
+which we can find the compensated demand by computing the
+optimal point keeping fixed the utility. This is called the
+Hicksian (compensated) demand or Hicksian Substitution
+Effect.
+
+Hicksian Demand
+Computing Hicksian Demand implies creating a new
+framework: we can’t maximise utility if we keep utility fixed!
+We can think of ”inverting” the problem, defining it in terms
+of expenditure minimisation (EMP): what is the minimum
+expense I need to make to secure a certain level of utility ū ?
+minx1 ,x2 p1 x1 + p2 x2
+s.t. u (x1 , x2 ) = ū
+We call the solution h (p, ū ).
+Computation: Equimarginal principle (with different
+constraint) or Lagrangian.
+
+EMP - Graphical solution
+10 y
+
+u (x1 , x2 ) = x1 x22
+x1 + 2x2
+
+8
+6
+4
+2
+
+(h1∗ , h2∗ ) = ( 83 , 83 )
+
+ū = 9
+x
+
+2
+
+4
+
+6
+
+8
+
+10
+
+The optimal point, the hicksian demand, lies on the lowest
+budget line touching the Indifference curve constraint.
+
+Duality
+It seems there should be some connections between the
+solutions to UMP and EMP.
+Suppose x is a solution to the UMP problem ant the utility at
+this point is v = v (p, m ) = u (x (p, m )), also called the
+indirect utility as it depends directly on prices and income.
+Then, if we set ū = v and solve the EMP, we will find that
+h (p, v ) = x (p, m ) and e (p, v ) = m.
+That is, if we set the constraint to the EMP equal to the
+maximum utility we could reach with some budget m, it must
+be that the bundle that achieves that utility with the smallest
+expenditure is the same that maximised utility.
+Can you repeat the same argument starting from the hicksian
+demand?
+
+Measures of welfare changes - Price change
+As a result of a price change, we studied how the optimal
+bundle changes (and therefore its utility). How can we
+”normalize” the utility change in monetary terms?
+We will use 3 ways:
+
+▶ Compensating Variation
+▶ Equivalent Variation
+▶ Consumer Surplus (this is mostly used for market
+demands)
+In the following, I will use the underlying case of a price
+increase. As an exercise, try to think of the parallel case of a
+price decrease.
+
+Compensating variation
+In this case, we want to fix the utility at the original (before
+price change) one: u (x ∗ (p, m )).
+Then, we can ask ourselves how we can adjust the income to
+make sure that after the price change the consumer enjoys
+the same level of utility as before. Let e (p ′ , u (x ∗ (p, m ))) be
+the minimum expenditure needed to achieve the original utility
+at final prices, then the Compensating Variation is
+CV (p, p ′ , m ) = |m − e (p ′ , u (x ∗ (p, m )))|
+Notice that income m can be also expressed as
+e (p, u (x ∗ (p, m ))).
+
+Compensating variation
+10 x
+2
+
+BL Original
+BL Final
+e (p ′ , u (x ∗ ))
+U (p, m )
+
+8
+CV
+6
+4
+
+x∗
+u (x ∗ ) = 8
+
+2
+
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+Equivalent Variation
+
+In this case, we want to fix the utility at the final (post price
+change) one: u (x ∗ (p ′ , m )).
+Then, we can ask ourselves how we can adjust the income to
+make sure that before the price change the consumer enjoys
+the same level of utility as after. Let e (p, u (x ∗ (p ′ , m ))) be
+the minimum expenditure needed to achieve the final utility at
+original prices, then the Equivalent Variation is
+EV (p, p ′ , m ) = |e (p, u (x ∗ (p ′ , m ))) − m |
+
+Equivalent Variation
+10
+
+BL Original
+BL Final
+e (p, u (x ′ ))
+U (p ′ , m )
+
+8
+6
+EV
+4
+2
+
+x′
+u (x ′ ) = 92
+2
+
+4
+
+6
+
+8
+
+10
+
+Consumer’s Surplus
+A different approach to measuring welfare change is through
+demand function.
+Imagine a scenario in which consumers have quasilinear
+preferences: u (x1 , x2 ) = v (x1 ) + x2 .
+Given some prices p, we can define the consumer surplus as
+the net benefit from consuming q1 units of good 1 as
+CS (q1 ) = v (q1 ) − p1 q1 .
+Then, moving from p1 to p1′ implies a change in Consumer’s
+Surplus
+∆CS = |v (q1 (p1′ )) − v (q1 (p1 ))|
+
+Consumer’s Surplus
+The Consumer’s surplus can be portrayed as the area below
+the demand curve (whether it is a single consumer or demand
+curve).
+10 p
+1
+
+p1 = 6 − x1
+
+8
+6
+4
+
+CS
+
+2
+x1
+2
+
+4
+
+6
+
+8
+
+10
+
+CV-EV: A comparison
+When goods are normal CV ≥ EV for a price increase, and
+viceversa for a price decrease (or for a price increase in the
+case of inferior goods).
+p
+h1 (p, u )
+12 1
+10
+A Equivalent Variation
+
+8
+
+A + B =
+Compensating Variation
+
+6
+4
+
+x′
+A
+
+x∗
+
+B
+
+x1 ( p ′ , m )
+
+2
+2
+
+4
+
+6
+
+h1 (p, u ′ )
+8 10 12
+
+x1
+14
+
+Extra: Hicksian Decomposition
+We can decompose a price change into hicksian substitution
+and income effects.
+In this case, the ”intermediate” bundle would be constructed
+at new price but keeping the utility constant at the original
+level.
+Quantitatively it would change the size of the two
+components, substitution and income effect, but not the
+qualitative results (i.e. signs).
+Can you replicate the graph from previous class to this
+scenario?
+
+Applications
+
+The usefulness of these measures is that they allow for a clear
+comparison between policy. Moreover, using money as a
+compensation is a standard method that is widely used.
+The cleanest example was last years winter fuel ”subsidy”, in
+which housholds received a pay back of £66 per month during
+winter months to compensate for the gas price increase.
+Would that constitute a payment that leans more towards a
+compensating or an equvalent variation?
+
+Lecture 5 - Choice Under
+Uncertainty
+
+November 2, 2023
+
+A new framework?
+
+We provided a framework to explain individual choices using
+utilities (and preferences).
+Can we extend this framework to different scenarios, or is this
+framework consistent with different type of decisions?
+Let’s test the utility framework when DMs (Decision Makers)
+are faced with uncertainty in their outcomes.
+
+What is uncertainty?
+
+Uncertainty relates to missing information, in which the link
+between cause and consequence, choices and outcomes, is not
+deterministic.
+We can work in settings in which DM wouldn’t neither know
+the consequences of their actions or the probability attached
+to each attainable outcome.
+We will focus on risk: situations in which the achievable
+outcomes and the probabilities are known by the agents.
+
+Fitting risk into our utility framework
+
+Can we extend preferences (and utilities) to a context of risky
+decisions?
+The canonical example would be: would you enter a lottery in
+which you toss a coin, if it lands on tail you pay £10 and get
+£12 otherwise?
+
+The role of expectations
+One of the starting point to look at this decision problem
+would be the one of expectations. What is the expected
+wealth from the previous lottery?
+E (w ) =
+=
+
+p1 w1 + p2 w2
+1
+1
+2 (−10) + 2 (12) = 1
+
+We can set E (w ) = 0 for the so called outside option, i.e. not
+entering the lottery.
+But then, since 0.2 > 0, should we conclude that we expect
+agents to enter the lottery? Is there more to it?
+
+Expected utility
+One possible extension would be to go beyond money per se,
+but attach a value/ utility to it. Therefore, we can rewrite the
+previous expectation as
+1
+1
+EU (w ) = u (−10) + u (12) =?
+2
+2
+So, even if we set u (0) = 0, the shape or the function u will
+determine the choice.
+This expression, called the Expected Utility attached to the
+previous lottery, can be seen as a utility function over lotteries.
+Von Neumann and Morgenstern defined a set of axioms that
+guarantee this is an appropriate representations for preferences
+over lotteries.
+
+Utility of wealth
+What can we say about the shape of the utility of wealth? We
+can assume it is an increasing function (monotonicity). In
+particular, the rate of increase will be very important.
+10 u
+
+u (w ) = x 2
+
+8
+u (w ) = w
+6
+4
+
+√
+u (w ) = 23 w
+
+2
+w
+2
+
+4
+
+6
+
+8
+
+10
+
+Certain Equivalent
+Another important concept is the one of the Certain
+Equivalent, i.e. the certain lottery which is equivalent to the
+risky one.
+In our previous example, the amount of money to give (or
+take) that would make you indifferent between taking the
+gamble or that amount. In other words, the CE is an amount
+such that
+u (CE ) = EU (w ) = pu (w1 ) + (1 − p )u (w2 )
+The relation between the certain equivalent and the expected
+wealth will give us definitions of risky behaviours.
+
+Risk attitudes
+▶ Risk Averse: EU (w ) < u (E (w )) or CE < E (w )
+▶ Risk Neutral: EU (w ) = u (E (w )) or CE = E (w )
+▶ Risk Lover: EU (w ) > u (E (w )) or CE > E (w )
+Notice that these definition rely on the comparison between a
+lottery and its expected value. A risk averse agent will prefer
+certainty over risk in general, but this comparison holds only
+when comparing reasonably similar lotteries (in terms of their
+expected outcome).
+Can you see the relation between concavity/convexity and risk
+attitude?
+
+Risk Averse behaviour: visualisation
+u
+
+u (w ) =
+
+√
+
+u (w2 )
+u (E (w ))
+EU (w ))
+u (w1 )
+
+w
+w1
+
+CE E (w )
+
+w2
+
+Notice that E (w ) and EU (w ) are both convex combinations of w and u (w ) respectively.
+
+5w
+
+Lecture 6 - Insurance
+
+November 4, 2023
+
+An example
+We saw that risk averse individuals would prefer, under some
+conditions, certainty over uncertainty.
+Therefore there can be an incentive for individuals to trade
+risk.
+Suppose we have an individual facing a lottery in which they
+lose £50 with 50% chance, the same win √
+otherwise and own
+£50. Their utility for money it’s u (w ) = w .
+On the other hand, we have a risk neutral agent who owns
+£50 and faces no risk.
+Is there a mutually beneficial trade?
+
+An Example - 2
+At the beginning,
+EU1 (w ) = 0.5u (wb ) + 0.5u (wg ) = 0.5u (0) + 0.5u (100) = 5
+(I use wb for wealth in bad state and wg for wealth in good state)
+
+EU2 (w ) = w = 50
+Suppose the two can devise a trade in which the lottery is
+transferred to the risk neutral agent in exchange for £10. Now
+we have that
+√
+EU1 (w ) = 40 > 5
+EU2 (w ) = 0.5(10) + 0.5(110) = 60
+Then, they are both better off!
+
+Insurance
+
+The best real example of this trade is the insurance market.
+We can think of insurance firms as big risk neutral agents,
+offering contracts for risk averse individuals.
+Let’s try and find the optimal demand for insurance through
+an example. Suppose the insurance offers the following
+contract type: for each pound insured, the agent needs to pay
+α. In the case of an event occurring, the insurance will pay
+back the insured sum.
+
+Optimal insurance contract
+Let’s fix the notation:
+
+▶ k The amount insured
+▶ w the value of the insured object
+▶ A the potential damage
+▶ α the price per insured pound
+▶ p the probability of the event that would cause the
+damage happening
+Therefore, we can find that wg = w − αk and
+wb = w − A − αk + k = w − A + (1 − α)k . We can set up
+our (expected) utility maximisation:
+max EU (k ) = (1 − p ) u (w − αk ) + pu (w − A + (1 − α)k )
+k
+
+First Order Condition
+dEU (k )
+= α(1 − p )u ′ (wg ) − (1 − α)pu ′ (wb ) = 0
+dk
+
+(1 − p )u ′ (wg )
+(1 − α )
+=
+′
+pu (wb )
+α
+Notice that the only way we can have constant wealth,
+wb = wg is when k = A. We call this situation full
+insurance, when the agent insures for the whole potential loss.
+To make sure the full insurance is optimal, we need to have
+that p = α. We call this a fair price. If the price per unit is
+higher than the probability of the bad state, then the agent
+will insure less than the whole loss.
+
+Full Insurance
+u
+
+u (w )
+u (wg )
+
+u (wb )
+
+w
+wb
+wg = wb
+wg − αk
+wb + (1 − α)k
+
+wg
+
+Willingness to pay and Risk premium
+Different insurance contract don’t give the opportunity to
+choose the exact amount you are willing to insure. Instead, an
+agent is offered a contract in which there is an annual
+premium to be paid, which covers the damage if occurred.
+In a simple scenario in which there are only two outcomes, an
+agent is willing to pay at most the difference between wg
+and the certain equivalent (why?) .
+Moreover, we define the risk premium as the the extra
+amount of money an agent is willing to pay with respect to a
+risk neutral person. This is quantified by the difference
+between E (w ) and the certain equivalent.
+
+Asymmetric Information
+In real world, the probability of the bad state occurring is not
+exogenous, but it is related to some factors specific to the
+individual seeking insurance.
+The classical example is the one of car insurance: clearly the
+probability of an accident is higher for more reckless drivers.
+But then, the price they should pay for fair insurance is higher.
+What if the insurer can’t tell this when signing the
+contract?
+This scenario implies that there is some information which is
+not transmitted from the insured agent to the insurer, such as
+a reckless driver trying to enjoy lower insurance prices by
+hiding their behaviour.
+
+Adverse Selection
+If the asymmetry in information arises before the contract is
+signed, we are in a situation called adverse selection. In this
+case, we are in presence of an hidden characteristic.
+This problem might not only induce non efficient outcomes,
+but to the extreme this might prevent trade in some peculiar
+markets (see ”Market for Lemons”).
+How is this problem actually solved?
+
+▶ Signaling: the more informed agent might provide
+evidence to prove their type
+▶ Screening: the less informed agent might ”investigate” to
+learn those hidden characteristics
+
+Moral Hazard
+If the asymmetry in information arises after the contract is
+signed, we are in a situation called moral hazard. In this case,
+we are in presence of an hidden action.
+For example, after hiring a worker, I might not be fully able to
+monitor whether they will do the work required and exert
+adequate effort.
+How to solve this issue?
+
+▶ Monitoring
+▶ Limited liability
+
+Signaling: more issues
+As per now, we studied cases in which agents have information
+while others don’t. When talking about solving this issue via
+signaling, we implicitly assumed agents share information
+plainly as they would benefit from it.
+What if instead further manipulating the information can be
+even more beneficial? For example, a reckless driver might
+provide evidence that would portray them as virtuous driver.
+But then, the receiver might be induced to believe less in these
+signals...
+Kamenica and Gentkow (2011) wrote a seminal paper in which
+they talk about (Bayesian) Persuasion explaining how
+information can be used to maximise someone’s benefit.
+
+
